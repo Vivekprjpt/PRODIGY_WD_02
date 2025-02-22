@@ -1,0 +1,28 @@
+<!-- Vivek Prajapati -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="stopwatch-circle">
+            <div class="gradient-ring"></div>
+            <div class="inner-circle">
+                <div id="timeDisplay">00:00:00.00</div>
+                <div class="controls">
+                    <button id="startPauseBtn" class="btn">Start</button>
+                    <button id="resetBtn" class="btn">Reset</button>
+                    <button id="lapBtn" class="btn">Lap</button>
+                </div>
+                <ul id="lapsContainer" class="lap-list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
